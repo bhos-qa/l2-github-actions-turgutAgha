@@ -1,4 +1,6 @@
-package org.turgut.
+package org.turgut;
+import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class MainTest {
@@ -7,6 +9,6 @@ public class MainTest {
 
     @Test
     void testStringLength(){
-        assertEquals("The length of the word 'TEsting1241' is 12", Main.stringLength("TEsting1241"));
+        assertEquals("Length of the word 'TEsting1241' is 11", Main.stringLength("TEsting1241"));
     }
 }
