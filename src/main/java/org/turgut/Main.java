@@ -1,3 +1,5 @@
+package org.turgut;
+
 public class Main {
     public static String stringLength (String word){
         int length = word.length();
